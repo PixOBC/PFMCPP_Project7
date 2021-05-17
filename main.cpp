@@ -5,7 +5,7 @@
 Project 7: Part 1/1
  video: Chapter 4 Part 2 
 
-Create a branch named Part1
+Create a branch named Part 1
 
 Purpose:  This project will teach you how to read existing code someone else has already written, and to get it working again.  Consider this project the "midterm" of the course.
 
