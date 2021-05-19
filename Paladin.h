@@ -1,4 +1,5 @@
 #pragma once
+#include "Character.h"
 
 struct Paladin : Character
 {

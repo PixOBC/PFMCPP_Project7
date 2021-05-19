@@ -18,7 +18,7 @@ it's very easy to mess this task up.
  It's time to get your inner Dungeons & Dragons nerd on!!
  
  1) TODO Make the errors go away.
- Cannot open include file: 'assert': No such file or directory
+
 
  2) TODO Assertions have been added with text explaining the things you need to implement.
         after you implement them, remove the 'assert(false);
@@ -69,6 +69,8 @@ it's very easy to mess this task up.
  Wait for my code review.
  */
 //==========================================================
+
+
 int main()
 {
                       //name, hit points, armor. 
