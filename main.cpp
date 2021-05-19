@@ -5,7 +5,7 @@
 Project 7: Part 1/1
  video: Chapter 4 Part 2 
 
-Create a branch named Part 1
+Create a branch named Part 1 [DONE]
 
 Purpose:  This project will teach you how to read existing code someone else has already written, and to get it working again.  Consider this project the "midterm" of the course.
 
@@ -17,31 +17,32 @@ it's very easy to mess this task up.
 
  It's time to get your inner Dungeons & Dragons nerd on!!
  
- 1) Make the errors go away.
+ 1) TODO Make the errors go away.
+ Cannot open include file: 'assert': No such file or directory
 
- 2) Assertions have been added with text explaining the things you need to implement.  
+ 2) TODO Assertions have been added with text explaining the things you need to implement.
         after you implement them, remove the 'assert(false);
 
- 3) add the appropriate #include statements
+ 3) TODO add the appropriate #include statements
 
- 4) you're going to need to implement the pure virtual functions in Character-derived classes and Item classes
+ 4) TODO you're going to need to implement the pure virtual functions in CHARACTER-DERIVED CLASSES and ITEM CLASSES
     
- 5) implement the constructors for all the Character-derived types. 
+ 5) TODO implement the constructors for all the Character-derived types.
         Dragon's attackDamage is 80
         DragonSlayer's attackDamage is 4
         Dwarf's attackDamage is 4
         Paladin's attackDamage is 10
 
- 6) Each character type gets some Helpful Items and Defensive Items when they're constructed
-        Use the functions in Utility.h to give each Character (excluding Dragon, because dragons don't carry items) a RANDOM NUMBER of helpful and defensive items: 
+ 6) TODO Each character type gets some Helpful Items and Defensive Items when they're constructed
+        Use the functions in Utility.h TO GIVE EACH CHARACTER (EXCLUDING DRAGON, because dragons don't carry items) a RANDOM NUMBER of helpful and defensive items:
             helpfulItems = makeHelpfulItems(2);
             defensiveItems = makeDefensiveItems(1);
     
- 7) create a new Item-derived type that boosts the attack damage called AttackItem 
+ 7) TODO create a NEW ITEM-DERIVED TYPE that boosts the attack damage called 'AttackItem'
         add an instance of it to the DragonSlayer class
         make the DragonSlayer::attack use it when the dragonSlayer attacks a dragon. 
         
- 8) Clear the warnings as best you can.   
+ 8) TODO Clear the warnings as best you can.
          for the 'vtables' warnings coming from a header file, move any virtual function implementations to the complementary cpp file.
          for 'shadow' warnings, rename the offending variable.
          casting is introduced in the next video and project, so ignore any 'implicit conversion' warnings.
