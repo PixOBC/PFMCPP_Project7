@@ -83,6 +83,7 @@ void useHelpfulItem(Character*, Item* item)
         //dragons don't carry helpful items!
     }
 }
+#include <cassert>
 void useAttackItem(Character*, Item* item)
 {
     if( auto* ch = dynamic_cast<Dwarf*>(character) )
