@@ -14,5 +14,3 @@ std::string Dwarf::getStats()
 {
     return getCharacterStats(this);
 }
-
-//Dwarf::getStats

@@ -27,7 +27,7 @@ it's very easy to mess this task up.
 
  4) TODO you're going to need to implement the pure virtual functions in CHARACTER-DERIVED CLASSES and ITEM CLASSES
     
- 5) TODO implement the constructors for all the Character-derived types.
+ 5) DONE implement the constructors for all the Character-derived types.
         Dragon's attackDamage is 80
         DragonSlayer's attackDamage is 4
         Dwarf's attackDamage is 4
